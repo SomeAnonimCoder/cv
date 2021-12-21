@@ -1,0 +1,131 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Twenty Seconds Resume/CV
+% LaTeX Template
+% Version 1.1 (8/1/17)
+%
+% This template has been downloaded from:
+% http://www.LaTeXTemplates.com
+%
+% Original author:
+% Carmine Spagnuolo (cspagnuolo@unisa.it) with major modifications by 
+% Vel (vel@LaTeXTemplates.com)
+%
+% License:
+% The MIT License (see included LICENSE file)
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%----------------------------------------------------------------------------------------
+%	PACKAGES AND OTHER DOCUMENT CONFIGURATIONS
+%----------------------------------------------------------------------------------------
+\documentclass[letterpaper]{twentysecondcv} % a4paper for A4
+
+\usepackage[T2A]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage{amsmath,amssymb}
+\usepackage[russian,english]{babel}
+%----------------------------------------------------------------------------------------
+%	 PERSONAL INFORMATION
+%----------------------------------------------------------------------------------------
+
+% If you don't need one or more of the below, just remove the content leaving the command, e.g. \cvnumberphone{}
+
+\profilepic{profile.jpeg} % Profile picture
+
+\cvname{Артем Глубшев} % Your name
+\cvjobtitle{Junior Data Scientist} % Job title/career
+
+\cvdate{29 сентября 2001} % Date of birth
+\cvaddress{Москва} % Short address/location, use \newline if more than 1 line is required
+\cvnumberphone{+7(950)806-25-18} % Phone number
+\cvmail{glubshev2001@gmail.com} % Email address
+\cvsite{github.com/someanonimcoder}% github
+%----------------------------------------------------------------------------------------
+
+\begin{document}
+
+%----------------------------------------------------------------------------------------
+%	 ABOUT ME
+%----------------------------------------------------------------------------------------
+
+\aboutme{} 
+
+%----------------------------------------------------------------------------------------
+%	 SKILLS
+%----------------------------------------------------------------------------------------
+
+% Skill bar section, each skill must have a value between 0 an 6 (float)
+\skills{{Python/5.8},{Pandas, numpy/6},{Keras/5.5},{Matplotlib/5.5},{SKLearn/3},{SQL/1},{Git/4.3},{\LaTeX/4},{R/3},{GNU Linux/5}}
+
+%------------------------------------------------
+% Skill text section, each skill must have a value between 0 an 6
+\skillstext{}
+%----------------------------------------------------------------------------------------
+
+\makeprofile % Print the sidebar
+
+%----------------------------------------------------------------------------------------
+%	 INTERESTS
+%----------------------------------------------------------------------------------------
+
+\section{Интересы}
+
+Анализ данных, машинное обучение, в основном глубокое обучение.
+
+
+
+%----------------------------------------------------------------------------------------
+%	 ABOUT ME
+%----------------------------------------------------------------------------------------
+\section{Обо мне}
+
+\begin{itemize}
+\item Junior Data Scientist, 2 года опыта коммерческой разработки \linebreak
+(химический Data Science, Computational Chemistry). 
+
+\item Имею хорошие
+знания Computer Science: алгоритмы, структуры данных, их эффективность. 
+
+\item Хорошо
+знаком с инструментами анализа данных:
+Python, Jupyter Notebook, Pandas, Keras,
+Numpy, Scipy, Matplotlib. 
+
+\item Имею опыт создания ML-моделей: сверточных и глубоких нейросетей, а также их 
+обучения на кластерах(кластер cHARISMa НИУ ВШЭ, Курчатовский кластер, кластер "Ломоносов-2").
+
+\item Английский на уровне уверенного чтения технической документации и научных статей,
+опыт общения на английском минимален.
+
+\item Готов к part-time работе, full-time к сожалеию
+не позволяет учеба в ВУЗе.
+
+\item Хочу развиваться в направлении Data Science/ Machine Learning.
+\end{itemize}
+
+%----------------------------------------------------------------------------------------
+%	 EDUCATION
+%----------------------------------------------------------------------------------------
+
+\section{Образование}
+
+\begin{twenty} % Environment for a list with descriptions
+	\twentyitem{2021-\ldots}{Факультет ИВТ}{\normalfont НИТУ МИСиС}{Бакалавриат по специальности информатика и вычислительная техника}
+	\twentyitem{2019-2021}{Факультет химии}{\normalfont НИУ ВШЭ}{Неоконченное высшее образование по химии. Учебу совмещал с сначала обучением/стажировкой, а затем работой в \textbf{группе №24 теоретической химии ИОХ РАН}, где занимался вычислительной химией и машинным обучением. Перепоступил на IT-специальность из-за очень большого объема ставшей мне неинтересной к тому моменту химической практики}
+	\twentyitem{2017-2019}{Естественнонаучный профиль}{\normalfont Университетская гимназия МГУ}{10-11 класс, школа интернат. Углубленно изучал химию и программирование. В этот период начал интересоваться наукой о данных и программированием/IT вообще. В какой-то момент думал, поступать ли мне на химию или ИВТ, выбрал первое}
+	
+	%\twentyitem{<dates>}{<title>}{<location>}{<description>}
+\end{twenty}
+
+%----------------------------------------------------------------------------------------
+%	 EXPERIENCE
+%----------------------------------------------------------------------------------------
+
+\section{Experience}
+
+\begin{twenty} % Environment for a list with descriptions
+	\twentyitem{2019 - 2021}{Intern/Junior data scientist}{гр.24 теоретической химии ИОХ РАН}{Data Science в химии: разработка модели для предсказания кристаллической структуры вещества по данным рентгеновской дифракции, разработка ML-функционала DFT, моделирование химических реакций}
+	%\twentyitem{<dates>}{<title>}{<location>}{<description>}
+\end{twenty}
+
+\end{document} 
